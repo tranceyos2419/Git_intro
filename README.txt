@@ -2,6 +2,7 @@ git init
 git status
 git add
 git commit
+git reset HEAD 
 
 git log
 git checkout

@@ -1,0 +1,15 @@
+{
+  "name": "git_intro",
+  "version": "1.0.0",
+  "description": "git init\r git status\r git add\r git commit\r git reset HEAD",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}
