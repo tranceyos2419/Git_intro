@@ -17,6 +17,7 @@ How to untrack current tracking files?
 <Branch>
 List branch: git branch
 Switch branch: git checkout [branch name]
+Add new branch: git checkout -b [new branch name]
 
 
 #: hash tag of commit
