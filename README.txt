@@ -11,8 +11,13 @@ git revert
 git chekout #
 git checkout master
 
+<Questions>
+How to untrack current tracking files?
+
 <Branch>
-git checkout
+List branch: git branch
+Switch branch: git checkout [branch name]
+
 
 #: hash tag of commit
 
