@@ -18,6 +18,8 @@ How to untrack current tracking files?
 List branch: git branch
 Switch branch: git checkout [branch name]
 Add new branch: git checkout -b [new branch name]
+Merge branch into current branch: git merge [the name of branch I wan to merge]
+Remove branch: git branch -d [branch name]
 
 
 #: hash tag of commit
