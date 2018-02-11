@@ -54,3 +54,17 @@ Save public and private keys to somewhere safe
 Connect github to local folder: git remote add origin [url of repository]
 Checkout: git remote -v
 Push local files to GitHub: git push -u origin master
+
+[Automate user authentication]
+Run following command to enable credential caching.
+$ git config credential.helper store
+$ git push https://github.com/repo.git
+
+Username for 'https://github.com': <USERNAME>
+Password for 'https://USERNAME@github.com': <PASSWORD>
+Use should also specify caching expire,
+
+git config --global credential.helper 'cache --timeout 7200'
+After enabling credential caching, it will be cached for 7200 seconds (2 hour).
+
+Note: Credential helper storing unencrypted password on local di
