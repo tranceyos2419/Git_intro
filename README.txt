@@ -51,6 +51,6 @@ Copy ssh-rsa to GitHub
 Save public and private keys to somewhere safe
 
 [Add local files to git repository]
-Connect github to local folder: git remote add origin https://github.com/tranceyos2419/Git_intro.git
+Connect github to local folder: git remote add origin [url of repository]
 Checkout: git remote -v
 Push local files to GitHub: git push -u origin master
